@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>List of Solutions - Group 2 LifeLabs Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont,"Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0; padding: 40px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #161b22;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(56, 94, 252, 0.4);
+    }
+    h1, h2, h3 {
+      color: #58a6ff;
+    }
+    ul {
+      color: #c9d1d9;
+      margin-left: 20px;
+      padding-left: 15px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .images-row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 25px;
+      flex-wrap: wrap;
+    }
+    .images-row img {
+      max-width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(88, 166, 255, 0.5);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .images-row img:hover {
+      transform: scale(1.06);
+      box-shadow: 0 8px 20px rgba(88, 166, 255, 0.75);
+    }
+    button.back-btn {
+      background-color: #2383ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 25px;
+      font-size: 1rem;
+    }
+    button.back-btn:hover {
+      background-color: #58a6ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>List of Solutions</h1>
+
+    <h2>Root Causes:</h2>
+    <ul>
+      <li>Ethernet Cable Issues: Damaged or improperly connected cables can cause connectivity loss.</li>
+      <li>Poor Wi-Fi Signal Strength: Weak signals from distance or obstructions cause slowness and drops.</li>
+      <li>Outdated Infrastructure: Old equipment creates bottlenecks and security risks.</li>
+    </ul>
+
+    <h2>Best Solutions:</h2>
+    <ul>
+      <li>Report Issues: Notify IT or service providers for professional diagnosis and fixes.</li>
+      <li>Upgrade your router: Replace old routers for better range, speed, and efficiency.</li>
+      <li>Update network driver: Keep your device drivers updated for compatibility and performance.</li>
+    </ul>
+
+    <h2>Impact of Solutions:</h2>
+    <ul>
+      <li>Improved Productivity: Stable networks allow uninterrupted work.</li>
+      <li>Reduced Frustration: Fewer issues improve user experience.</li>
+      <li>Reliable Operations: Well-maintained infrastructure ensures consistent performance.</li>
+    </ul>
+
+    <div class="images-row" aria-label="List of Solutions Related Images">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Network Cables" />
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" alt="Router Equipment" />
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Wi-Fi Signal" />
+    </div>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">Back to Home</button>
+  </div>
+
+</body>
+</html>
